@@ -39,6 +39,14 @@ testem.log
 /typings
 __screenshots__/
 
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Generated Prisma client
+src/generated/
+
 # System files
 .DS_Store
 Thumbs.db
